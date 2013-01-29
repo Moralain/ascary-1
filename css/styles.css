@@ -1,0 +1,82 @@
+body{margin:0;padding:0;background-image:url(../images/background2.jpg); background-repeat:no-repeat;}
+
+@font-face {font-family:"Century Gothic"; src:url(http://localhost:8080/webAscari/fonts/BlairMdITC.ttf) format("truetype");}
+@font-face {font-family:Dakota; src:url(http://localhost:8080/webAscari/fonts/Dakota.ttf) format("truetype");}
+
+
+a{text-decoration: none;color:#000}
+a:link{color:#000}
+a:hover{color:#000}
+a:visited{color:#000}
+img{ border:none}
+
+
+#ppalContainer{width:1280px; height:900px; border:1px solid #000; position:fixed;  }
+#head{ width:1280px; height:215px; margin:0;  position:fixed; font-family: "BlairMdITC TT" ; font-size:14px;font-weight:normal; z-index:4}
+#head h4{font-family: "BlairMdITC TT" ; font-size:9px; font-weight:normal; color:#a59885; position:fixed;  width:100px; margin:37px 0 0 50px}
+#head img{margin:0; position:fixed; margin:25px 0 0 512px}
+#socialMedia{width:auto; height:50px; margin:30px 0 0 140px; position:fixed; }
+#socialMedia img{width:22px; height:22px; margin:0 10px 0 0; position:relative;  }
+#menu{position:fixed;/* background-color:#F00;*/ width:1280px; height:30px}
+#menu ul{position: absolute; margin:185px 0 0 125px}
+#menu ul li{display:inline; margin-right:58px} 
+
+/*------------------------------------------OBJECTS------------------------------------------------*/
+
+#bigDisk{ position:absolute; margin:535px 0 0 -50px ; width:210px; height:211px; z-index:1}
+#smallDisk{ position:absolute; margin:785px 0 0 1175px ; width:118px; height:119px; z-index:1}
+#nut{ position:absolute; margin:480px 0 0 1170px ; width:168px; height:161px; z-index:1}
+#pencil{ position:absolute; margin:150px 0 0 1020px ; width:224px; height:563px; z-index:1}
+
+/*----------------------------------------CONTAINER------------------------------------------------*/
+
+#container{ width:100%; height:100%; /* background-color:#F00*/ z-index:2}
+
+/*----------------------------------------SLIDER INDEX------------------------------------------------*/
+
+.slider-wrapper{background-image:url(../images/backSliderHome.png);width:985px; height:640px; margin:225px auto 0 auto;  z-index:3 }
+.slider-wrapper > img{ float:left; width:600px; height:530px; margin:55px 0 0 195px;/*filter:alpha(opacity=50);-moz-opacity:.50; opacity:.50;*/}
+
+/*----------------------------------------COMPANY------------------------------------------------*/
+
+#company{background-image:url(../images/backCompany.png);width:985px; height:640px;  position:absolute; margin:220px 0 0 150px;  z-index:3 }
+#company h3{font-family:Dakota; font-size:20px; font-weight:normal; color:#000;position:absolute; width:380px; margin:140px 0 0 540px; font-weight: bold}
+#company p{font-family:Dakota; font-size:13px; font-weight:normal; color:#000;position:absolute; width:380px; margin:190px 0 0 540px;font-weight:600}
+
+/*-------------------------------------THE BICYCLES------------------------------------------------*/
+
+#bikes{/*background-color:#099;*/width:1012px; height:640px;margin:220px 0 0 150px; position:absolute;  z-index:3 }
+
+#bikeMenu{background-image:url(../images/backBikesMenu.png); width:506px; height:331px; position:relative; float:left}
+
+#bikeMenu img{ background:#000;width:462px; height:266px; margin:20px 0 0 20px; position:absolute; z-index:2; cursor:pointer }
+#bikeMenu h3{ font-family: "BlairMdITC TT" ; font-size:11px; font-weight:bolder; color:#000; position:absolute;  width:auto; margin:295px 0 0 20px }
+#bikeMenu .textoh{position:absolute;left:0;top:0;z-index:-1; margin:20px 0 0 20px;width:462px;height:266px;text-align:center;background:#333333;color:#FFFFFF;filter:alpha(opacity=80);-moz-opacity:.80;opacity:.80}
+#bikeMenu .textoh a{font-family:Dakota; font-size:20px; font-weight:normal;padding-top:115px;display:block;color:#FFFFFF;text-decoration:none;font-size:16px; width:100%; height:100%}
+#bikeMenu:hover .textoh{z-index:3;}
+
+#details{background-image:url(../images/backSliderHome.png);width:985px; height:640px; position:absolute; margin:220px 0 0 150px;}
+#details h3{font-family:Dakota; font-size:20px; font-weight:normal; color:#000;width:1000px; text-align:center; float:left; margin:30px 0 0 0; font-weight: bold}
+#details p{font-family:Dakota; font-size:13px; font-weight:normal; color:#000;width:1000px; text-align:center; float:left; margin:10px 0 0 80px; font-weight: bold; width:820px; line-height:23px}
+
+/*----------------------------------------PRESS------------------------------------------------*/
+
+#press{background-image:url(../images/backSliderHome.png);width:985px; height:640px; position:absolute; margin:220px 0 0 150px;  z-index:3 }
+#press ul{ /*background-color:#F00;*/ width:940px; height:auto; text-align:center; margin-top:100px; position:fixed}
+#press ul li{/* background-color:#0F0;*/ margin:20px; list-style-type:none; list-style-image:none}
+#press a{font-family:Dakota; font-size:20px; font-weight:normal; color:#000; }
+#press a:hover{ font-family:Dakota; font-size:20px; font-weight:normal; color:#000;}
+
+/*----------------------------------------CONTACT------------------------------------------------*/
+
+#contact{background-image:url(../images/backContact.png);width:985px; height:680px; position:absolute; margin:220px 0 0 150px; z-index:3 }
+#contact img{ float:left;margin:20px 0 0 340px; width:263px; height:66px }
+#contact h3{font-family: "BlairMdITC TT"; font-size:18px; font-weight:bolder; color:#000; float:left; margin:230px 0 0 380px; width:200px; }
+#contact p{font-family: "BlairMdITC TT"; font-size:14px; font-weight:bolder; color:#000;  float:left; margin:0 0 0 340px; width:300px;line-height:23px; text-align:center}
+#contact a{font-family: "BlairMdITC TT"; font-size:8px; font-weight:lighter; color:#fff;  float:left; margin:20px 0 0 360px; text-align:center}
+
+
+#footer{ position:fixed; width:1280px; height:34px;  text-align:center;background-color: #000; top:868px;filter:alpha(opacity=80);-moz-opacity:.80; opacity:.80; z-index:4}
+#footer p{font-family:Arial, Helvetica, sans-serif; font-size:10px;  font-weight:normal; color:#a09b8c; float:left; margin:10px 0 0 120px;}
+#footer a{font-family:Arial, Helvetica, sans-serif; font-size:10px;  font-weight:normal; color:#a09b8c; float:right; margin-right:120px}
+
