@@ -27,8 +27,12 @@
                         container.load(page + '.php', (function () { 
                             var direction = randomDirection ();
                             container.show("slide", { direction : direction }, 1000, function () {
-                                if ($('#decoration').length) {
+                                if ($('#decoration').size) {
                                     $('#decoration').fadeIn();
+									$('#bigDisk').animate({"left": "+=250px"}, "slow");
+									$('#smallDisk').animate({"left": "+=800px"}, "slow");
+									$('#nut').animate({"left": "+=700px"}, "slow");
+									
                                 }
                             }); 
                         }));   

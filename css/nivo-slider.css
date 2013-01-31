@@ -10,9 +10,10 @@
 /* The Nivo Slider styles */
 .nivoSlider {
 	position:relative;
-	width:100%;
+	width:60%;
 	height:auto;
 	overflow: hidden;
+	
 }
 .nivoSlider img {
 	position:absolute;
@@ -28,6 +29,7 @@
 
 /* If an image is wrapped in a link */
 .nivoSlider a.nivo-imageLink {
+	
 	position:absolute;
 	top:0px;
 	left:0px;
@@ -44,6 +46,7 @@
 }
 /* The slices and boxes in the Slider */
 .nivo-slice {
+	
 	display:block;
 	position:absolute;
 	z-index:5;
@@ -90,11 +93,12 @@
 /* Direction nav styles (e.g. Next & Prev) */
 .nivo-directionNav a {
 	position:absolute;
-	top:45%;
 	z-index:9;
 	cursor:pointer;
+	height:auto;
 }
-.nivo-prevNav {
+.nivo-prevNav{
+	
 	left:0px;
 }
 .nivo-nextNav {

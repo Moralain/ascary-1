@@ -6,23 +6,18 @@
     </span>
     <div class="slider-wrapper theme-bar">
         <div id="slider" class="nivoSlider">
-            <?php
-            // Aï¿½adir las imï¿½genes de la carpeta 'slider' para mostrarlas en el slider.
-            $directory = "images/slider/";
-            $images = glob($directory . "*.{jpg,gif,png}", GLOB_BRACE);
-            foreach ($images as $image) {
-                $dir = explode("/", $image);
-                $filename = end($dir);
-                $alt = explode(".", $filename);
-                // echo "<div class='slide'><img class='lazy-fadeIn' src='images/loading.gif' data-src='$image' alt='$alt[0]' style='position:relative; top:120px; left:265px;'/></div>";
-                echo "<img src='$image' data-thumb='$image' alt='$alt[0]' />";
-            }
-            ?>
+           <img src="images/slider/bike01.png" />
+           <img src="images/slider/bike02.png" />
+           <img src="images/slider/bike03.png" />
+           <img src="images/slider/bike04.png" />
         </div>
     </div>
     <script type="text/javascript">
         $(document).ready (function () {
-            $("#slider").nivoSlider();
+            $("#slider").nivoSlider({
+				 effect: 'fade',
+				 directionNav: false
+			});
         });
     </script>
 </div>
